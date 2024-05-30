@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Laravel Banking Website",
+    "desc": "I developed this project using PHP and JavaScript. The project involved implementing advanced security features to protect customer data, creating a user-friendly interface for easy navigation, and enabling various banking transactions such as fund transfers and bill payments.",
+    "image": "invoice_laravel",
+    "category": "fullstack",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Vue Banking Website",
+    "desc": "I developed this project using Vue.js and Laravel. I focused on creating a user-friendly interface with advanced features for managing customer accounts, conducting secure transactions, and customizing banking preferences. ",
+    "image": "Mevn",
+    "category": "fullstack",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "React Hospital Website",
+    "desc": "For this project, I served as a developer and utilized React.js to build a cutting-edge and dynamic online platform for a hospital. I crafted a responsive and user-friendly interface that allows patients to easily access information, schedule appointments, and interact with healthcare providers. ",
+    "image": "react-hospital",
+    "category": "frontend design",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Wordpress Landing Page",
+    "desc": "For this project, I designed and developed a landing page that effectively captures visitor attention and encourages engagement. By customizing themes and plugins, I ensured seamless navigation and optimized performance for visitors. ",
+    "image": "LP-m-vision-10",
+    "category": "webpage design",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "PUG + SCSS Private Sauna Landing Page",
+    "desc": "For this project, I took on the role of both designer and developer, creating a visually stunning and functional web page for a private sauna business. I designed the layout, selected color schemes, and crafted the overall aesthetic using Pug for templating and SCSS for styling. ",
+    "image": "LP-workandplace-sauna",
+    "category": "webpage design",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "HTML5 + CSS3 Clinic Landing Page",
+    "desc": "For this project, I utilized the latest web technologies to create a professional and informative web page for a clinic.I designed and developed the landing page using HTML5 for structuring the content and CSS3 for styling the elements. ",
+    "image": "LP-asaba-clinic",
+    "category": "webpage design",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "HTML5 + SCSS LP(include design)",
+    "desc": "For this project, I took on the role of both designer and developer to create a modern and visually appealing web page.  The project successfully highlighted my abilities in both design and development, resulting in a visually attractive and user-friendly online presence.",
+    "image": "LP-storage",
+    "category": "webpage design",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]
