@@ -324,23 +324,23 @@
         <div class="image-box">
           <img draggable="false" src="./assets/images/contact1.png" alt="">
         </div>
-        <form id="contact-form">
-
+        <form id="contact-form-jp">
+          <input type="hidden" name="contact_number" value="7480608">
           <div class="form-group">
             <div class="field">
-              <input type="text" name="name" placeholder="氏名" required>
+              <input type="text" name="name-jp" placeholder="氏名" required>
               <i class='fas fa-user'></i>
             </div>
             <div class="field">
-              <input type="text" name="email" placeholder="メール" required>
+              <input type="text" name="email-jp" placeholder="メール" required>
               <i class='fas fa-envelope'></i>
             </div>
             <div class="field">
-              <input type="text" name="phone" placeholder="電話番号">
+              <input type="text" name="phone-jp" placeholder="電話番号">
               <i class='fas fa-phone-alt'></i>
             </div>
-            <div class="message">
-              <textarea placeholder="Message" name="メッセージ" required></textarea>
+            <div class="message-jp">
+              <textarea placeholder="メッセージ" name="Message" required></textarea>
               <i class="fas fa-comment-dots"></i>
             </div>
           </div>
@@ -428,7 +428,8 @@
   <!-- scroll reveal anim -->
   <script src="https://unpkg.com/scrollreveal"></script>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
 
   <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 

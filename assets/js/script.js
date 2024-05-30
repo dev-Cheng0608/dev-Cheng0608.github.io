@@ -45,7 +45,28 @@ $(document).ready(function () {
     emailjs.init("Bj2sSWGofo1ljHZPa");
 
     emailjs
-      .sendForm("service_8la7z9o", "template_idkbn3s", "#contact-form")
+      .sendForm("service_8la7z9o", "contact_form_001", "#contact-form")
+      .then(
+        function (response) {
+          console.log("SUCCESS!", response.status, response.text);
+          document.getElementById("contact-form").reset();
+          alert("Form Submitted Successfully");
+        },
+        function (error) {
+          console.log("FAILED...", error);
+          alert("Form Submission Failed! Try Again");
+        }
+      );
+    event.preventDefault();
+  });
+  // <!-- emailjs to mail contact form data -->
+
+  // <!-- emailjs to mail contact form data(Japanese) -->
+  $("#contact-form-jp").submit(function (event) {
+    emailjs.init("Bj2sSWGofo1ljHZPa");
+
+    emailjs
+      .sendForm("service_8la7z9o", "contact_form_001", "#contact-form")
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
