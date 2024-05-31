@@ -91,6 +91,7 @@ section {
   color: rgb(32, 32, 32);
   font-weight: 800;
   text-align: center;
+  margin-top: 3rem;
 }
 
 .heading span {
@@ -244,10 +245,10 @@ header .navbar ul li a:hover {
 }
 
 .home .image img {
-  width: 70%;
+  width: 50%;
   margin-left: 6rem;
-  border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  /*border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); */
   cursor: pointer;
 }
 
@@ -405,6 +406,7 @@ header .navbar ul li a:hover {
 /* about section starts */
 .about {
   background: rgb(255, 255, 255);
+  min-height: 70vh;
 }
 
 .about .row {
@@ -424,8 +426,8 @@ header .navbar ul li a:hover {
   margin: 4rem;
   width: 30rem;
   height: auto;
-  border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  /* border-radius: 5%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6); */
   mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
