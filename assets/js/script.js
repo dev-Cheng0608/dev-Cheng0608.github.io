@@ -60,27 +60,6 @@ $(document).ready(function () {
     event.preventDefault();
   });
   // <!-- emailjs to mail contact form data -->
-
-  // <!-- emailjs to mail contact form data(Japanese) -->
-  $("#contact-form-jp").submit(function (event) {
-    emailjs.init("Bj2sSWGofo1ljHZPa");
-
-    emailjs
-      .sendForm("service_8la7z9o", "contact_form_001", "#contact-form")
-      .then(
-        function (response) {
-          console.log("SUCCESS!", response.status, response.text);
-          document.getElementById("contact-form").reset();
-          alert("Form Submitted Successfully");
-        },
-        function (error) {
-          console.log("FAILED...", error);
-          alert("Form Submission Failed! Try Again");
-        }
-      );
-    event.preventDefault();
-  });
-  // <!-- emailjs to mail contact form data -->
 });
 
 document.addEventListener("visibilitychange", function () {
@@ -150,16 +129,16 @@ function showProjects(projects) {
         </div>
         <div class="desc">
           <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
+
         </div>
       </div>
     </div>`;
     });
   projectsContainer.innerHTML = projectHTML;
-
+  //   <div class="btns">
+  //   <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+  //   <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+  // </div>
   // <!-- tilt js effect starts -->
   VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
